@@ -1,0 +1,41 @@
+##############################################
+# NP/S Garden Path + Disambiguated Sentences #
+##############################################
+
+1.0 ROOT S
+
+1.0 S NP VP
+
+1.0 NP DT NN
+
+# 386 occurrences
+0.555 VP VBD NP
+
+0.20 VP VBD COMP_S
+
+# 91 occurrences
+0.178 VP VBD S
+
+# 34 occurrences
+0.067 VP VBD
+
+1.0 COMP_S COMP S
+
+1.0 DT the
+
+0.166 NN journalist
+0.166 NN manager
+0.166 NN officer
+0.166 NN senator
+0.166 NN intern
+0.166 NN driver
+
+0.333 VBD suspected
+0.333 VBD believed
+0.334 VBD trusted
+0.333 VBD lied
+0.333 VBD fled
+0.334 VBD resigned
+
+1.0 COMP that
+

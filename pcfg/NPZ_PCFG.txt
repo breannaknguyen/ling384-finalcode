@@ -1,0 +1,45 @@
+##############################################
+# NP/Z Garden Path + Disambiguated Sentences #
+##############################################
+
+1.0 ROOT S
+
+0.55 S NP VP
+0.35 S IN DISAMBIG_CLAUSE_PAIR
+0.10 S IN SUB_CLAUSE
+
+1.0 SUB_CLAUSE CLAUSE CLAUSE
+
+1.0 DISAMBIG_CLAUSE_PAIR CLAUSE_COMMA CLAUSE
+1.0 CLAUSE_COMMA CLAUSE COMMA
+
+1.0 CLAUSE NP VP
+
+# 193 occurrences
+0.93 VP VBD NP
+
+# 14 occurrences
+0.07 VP VBD
+
+1.0 NP DT NN
+1.0 DT the
+
+0.167 NN nurse
+0.167 NN guard
+0.167 NN technician
+0.167 NN patient 
+0.166 NN prisoner 
+0.166 NN software 
+
+0.167 VBD examined
+0.167 VBD searched
+0.167 VBD tested
+0.167 VBD recovered 
+0.166 VBD escaped 
+0.166 VBD crashed 
+
+1.0 COMMA ,
+
+0.34 IN because
+0.33 IN after
+0.33 IN when

@@ -1,0 +1,52 @@
+###############################################
+# MV/RR Garden Path + Disambiguated Sentences #
+###############################################
+
+############################
+# Adapted from Hale (2001) #
+############################
+
+1.0 ROOT S
+
+1.0 S NP VP
+
+0.876404494831 NP DT NN
+0.123595505169 NP NP VP
+
+1.0 PP IN NP
+
+0.171428571172 VP VBD PP
+0.502380952552 VP VBN PP
+0.25 VP SBAR VBD
+0.0761904762759 VP VBD
+
+1.0 VP_RR VBN PP
+
+1.0 SBAR WHNP S_Rel
+1.0 WHNP WP
+1.0 WP who
+1.0 S_Rel AUX VP_RR
+1.0 AUX was
+
+1.0 DT the
+
+0.167 NN horse
+0.167 NN child
+0.167 NN dude
+0.167 NN barn
+0.166 NN room
+0.166 NN gym
+
+0.167 VBD fell
+0.167 VBD cried
+0.167 VBD flexed
+0.167 VBD raced
+0.166 VBD walked
+0.166 VBD trained
+
+0.34 VBN raced
+0.33 VBN walked
+0.33 VBN trained
+
+0.5 IN past
+0.5 IN in
