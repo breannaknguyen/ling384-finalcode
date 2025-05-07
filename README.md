@@ -20,6 +20,8 @@ Two versions of CKY are implemented in [`cky.py`](./cky.py):
 1. **Basic incremental CKY** – computes prefix probabilities from spans ending at each word.
 2. **Continuation-mass CKY** – incorporates a left-corner continuation matrix for probabilistically grounded prefix estimates.
 
+The code was adapted from LING 227 Homework 5.
+
 ### Main Notebook
 [`main.ipynb`](./main.ipynb) contains the full pipeline for:
 - Loading grammars
